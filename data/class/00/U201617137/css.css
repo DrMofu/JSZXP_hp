@@ -1,0 +1,284 @@
+body{
+	background:#2286c6;
+	margin:0px;
+	padding:0px;
+	font-size:12px;
+	font-family:Arial;
+}
+
+#container{
+	width:780px;
+	height:600px;
+	text-align:left;
+	background:#123456;
+	margin:0px auto;
+}
+
+#banner{
+	margin:0px;
+	padding:0px;
+	background:#778899;
+	height:150px;
+	width:100%;
+}
+
+#globallink{
+	margin:0px;
+	padding:0px;
+}
+
+#globallink ul{
+	list-style:none;
+	padding:0px;
+	margin:0px;
+}
+
+#globallink ul li{
+	float:left;
+	text-align:center;
+	width:78px;	
+	background:white;
+}
+
+#globallink ul li a{
+	display:block;
+	padding:9px 6px 11px 6px;
+	margin:0px;
+	color:black;
+}
+
+#globallink a:visited{
+	color:red;
+	text-decoration:underline;
+}
+
+#globallink a:hover{
+	color:#ffffff;
+	text-decoration:none;
+	background-color:grey;
+}
+
+#left{
+	width:200px;
+	background:white;
+	margin:0px;
+	padding:0px 0px 5px 0px;
+	color:#d8ecff;
+	float:left;
+}
+
+#weather{
+	background:#bbdddd;
+	margin:0px 6px;
+}
+
+#weather h3{
+	font-size:15px;
+	padding:24px 0px 0px 74px;
+	margin:0px
+}
+
+#weather ul{
+	list-style:none;
+	margin:8px 5px 0px 5px;
+	padding:10px 0px 8px 5px;
+}
+
+#weather ul li{
+	background-color:#e85f12;
+}
+
+#today{
+	background:#5ea6eb;
+	margin:0px 5px;
+	padding:0px 0px 10px 0px;
+}
+
+#today h3{	
+    background:#bbddff;
+    color:#003973;
+	font-size:12px;
+	padding:4px 0px 4px 15px;
+	margin:0px 0px 5px 0px; 
+}
+
+#today ul{
+	list-style:none;
+	padding:0px;
+	margin:0px;
+}
+
+#today ul li{
+	text-align:center;
+}
+
+#today ul li img{
+	border:white 2px solid;
+	margin:8px 0px 0px 0px;
+}
+
+#today ul li a:link{
+	color:#d8ecff;
+	text-decoration:none;
+}
+
+#today ul li a:visited{
+	color:red;
+	text-decoration:underline;
+}
+
+#today ul li a:hover{
+	color:grey;
+	text-decoration:underline;
+}
+
+#middle{
+	width:400px;
+	background:white;
+	margin:0px 2px;
+	padding:5px 0px 7px 0px;
+	float:left;
+}
+
+#middle div{
+	margin:0px 5px;
+}
+
+#midle h3{
+	margin:0px;
+	padding:0px;
+	height:41px;
+}
+
+#beauty{
+	margin:15px 0px 0px 0px;
+	padding:0px;
+}
+
+#beauty ul,#route ul{
+	list-style:none;
+	margin:4px 1px 0px 1px;
+	padding:0px;
+}
+
+#beauty ul li{
+	float:left;
+	width:97px;
+	text-align:center;
+}
+
+#beauty ul li img{
+	border:1px solid #4ab0ff;
+}
+
+#route h3{
+	margin:0px;
+	padding:5px 0px 10px 0px;
+	height:28px;
+	clear:both;
+}
+
+#route ul li{
+	padding:3px 0px 0px 30px;
+}
+
+#route ul li a:link{
+	color:#004e8a;
+	text-decoration:none;
+}
+
+#route ul li a:visited{
+	color:red;
+	text-decoration:underline;
+}
+
+#route ul li a:hover{
+	color:grey;
+	text-decoration:underline;
+}
+
+#right{
+	width:176px;
+	background:#ffffff;
+	margin:0px;
+	padding:0px 0px 0px 0px;
+	float:left;
+}
+
+#right div{
+	margin:0px;
+	background:#5ea6eb;
+}
+
+#right h3{
+	font-size:12px;
+	padding:4px 0px 2px 15px;
+	color:#003973;
+	margin:0px 0px 5px 0px;
+	background:#bbddff;
+}
+
+#map p{
+	text-align:center;
+	margin:0px;
+	padding:2px 0px 3px 0px;
+}
+
+#map p img{
+	border:1px solid white;
+}
+
+#food ul,#life ul{
+	list-style:none;
+	padding:0px 0px 6px 0px;
+	margin:10px 10px 0px 10px;
+}
+
+#food ul li,#life ul li{
+	border-bottom:dashed #eeeeee 1px;
+	padding:3px 0px 3px 12px;
+}
+
+#food ul li a:link{
+	color:#d8ecff;
+	text-decoration:none;
+}
+
+#food ul li a:visited{
+    color:red;
+	text-decoration:underline;
+}
+
+#life ul li a:link{
+	color:#d8ecff;
+	text-decoration:none;
+}
+
+#life ul li a:visited{
+    color:red;
+	text-decoration:underline;
+}
+
+#life ul li a:hover{
+	color:grey;
+	text-decoration:underline;
+}
+
+#footer{
+	background:#ffffff;
+	margin:1px 0px 0px 0px;
+	padding:1px 0px;
+	clear:both;
+}
+
+#footer p{
+	text-align:center;
+	padding:0px;
+	margin:4px 5px 4px 5px;
+	background:#5ea6eb;
+}
+
+#footer p a{
+	color:#ffffff;
+	text-decoration:none;
+}

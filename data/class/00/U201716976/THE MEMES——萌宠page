@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>萌宠</title>
+</head>
+<body background="ICON.jpg">
+<div style="float:right;"><embed height="50" width="300" src="病名为爱.mp3" />
+	</div>
+<p style="font-family: 楷体;color: black;font-size: 30px">                 <a href="index.html">主页</a>
+</div>
+  <pre>
+        </br>
+    </pre>
+<MARQUEE width="1200" height="800" onmouseover=stop() onmouseout=start() 
+scrollAmount=-1 loop=infinite deplay="0">
+       
+        <img class="slide" src="萌宠2.jpg" height="500" />
+        <img class="slide" src="萌宠1.gif" height="500" /> 
+        <img class="slide" src="萌宠3.png" height="500" />
+        <img class="slide" src="萌宠4.jpg" height="500" />
+        <img class="slide" src="萌宠5.jpg" height="500" />
+        <img class="slide" src="萌宠6.jpg" height="500" />
+        <img class="slide" src="萌宠7.jpg" height="500" />
+        <img class="slide" src="萌宠8.jpg" height="500" />
+        <img class="slide" src="萌宠9.jpg" height="500" />
+        <img class="slide" src="萌宠10.jpg" height="500" />
+        <img class="slide" src="萌宠11.jpg" height="500" />
+        <img class="slide" src="萌宠12.jpg" height="500" />
+        <img class="slide" src="萌宠13.jpg" height="500" />
+        <img class="slide" src="萌宠14.gif" height="500" />
+        <img class="slide" src="萌宠15.jpeg" height="500" />
+        <img class="slide" src="萌宠16.jpg" height="500" />
+        <img class="slide" src="萌宠17.JPEG" height="500" />
+        <img class="slide" src="萌宠18.jpg" height="500" />
+        <img class="slide" src="萌宠19.jpg" height="500" />
+        <img class="slide" src="萌宠20.jpg" height="500" />
+</MARQUEE> 
+
+</body>
+</html>

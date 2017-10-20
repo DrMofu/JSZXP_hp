@@ -1,0 +1,64 @@
+<html>
+<head>
+<style>
+#header{background-color:black;color:white;text-align:center;padding:5px}
+</style>
+</head>
+<body style="color: darkblue">
+<div id="header">
+<h1>第一次用PS完成任务的记录</h1>
+</div>
+<div>
+<h2> 这是我第一次做的网页。抱着让多个第一次重叠的心，我将这个网页的主要内容定为了：第一次学习使用PS完成自己在学院内资委宣传部第一次任务的过程。</h2><hr/>
+</div>
+
+<div>
+<h2> 我的任务是为资委主任设计以粉色为主题的文化衫，最后我选定了一张小熊的图片作为Logo的素材。</h2>
+<img src="pic1.jpg" width="800" height="650"><hr/>
+</div>
+<div>
+<h2> 然后截取部分作为Logo的原型</h2>
+<img src="pic2.jpg" width="1400" height="800">
+<img src="pic3.jpg" width="1400" height="800"><hr/>
+</div>
+<div>
+<h2> 接着先用多边形套索工具选定小熊的衣服
+</h2>
+<img src="pic4.jpg" width="1400" height="800"><hr/>
+</div>
+<div>
+<h2> 在菜单命令区选择：图像—调整—色相/饱和度
+</h2>
+<img src="pic5.jpg" width="1400" height="800"><hr/>
+</div>
+<div>
+<h2> 在其中进行颜色调整
+</h2>
+<img src="pic6.jpg" width="1400" height="800"><hr/>
+</div>
+<div>
+<h2> 同上步骤 将小熊的肤色调为粉色
+</h2>
+<img src="pic7.jpg" width="1400" height="800"><hr/>
+</div>
+<div>
+<h2> 最后再将背景调成以粉色为主调
+</h2>
+<img src="pic8.jpg" width="1400" height="800"><hr/>
+</div>
+<div>
+<h2> 当然，作为形象担当的小熊，当然不能少了萌萌的问候！
+此处使用文本工具，调整字号、字体颜色和字体。（此处使用的字体为Courier Regular，个人认为比较符合自己所来的软件学院的风格）
+</h2>
+<img src="pic9.jpg" width="1400" height="800"><hr/>
+</div>
+<div>
+<h2> 导出成图片完就大功告成啦！~
+</h2>
+<img src="pic10.jpg" width="1400" height="800"><hr/>
+<img src="pic11.jpg" width="700" height="600">
+<h2>谢谢观看！</h2>
+</div>
+</body>
+</html>
+

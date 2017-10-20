@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body{ background:url(../img/bj.png) top center repeat-y #dbdbdb;}
+*{ margin:0; padding:0; font-family:Microsoft YaHei;}
+.clear{ clear:both;}
+.fl{ float:left;}
+.fr{ float:right;}
+img{ border:none;}
+a{ text-decoration:none;}
+a:hover{ text-decoration:underline;}
+li{ list-style-type:none;}
+.con{ width:1024px; height:auto; margin:auto; background:#fff;}
+.head{ width:1024px; height:auto; margin:auto;}
+.main{ width:1024px; height:auto; min-height:500px; margin:auto;}
+.main_div{ width:500px;  height:auto; float:left; margin-top:20px; margin-bottom:20px;}
+.main_divimg{width:400px;  height:250px; margin:auto; overflow:hidden;}
+.main_divtitle{width:400px;  height:30px; text-align:center;margin:auto; font-size:16px; color:#111;}
+.main_divdes{width:400px;  height:auto; text-align:left;margin:auto; font-size:14px; color:#666; line-height:24px; text-indent:2em;}
+.main_divlink{width:400px;  height:30px; text-align:center;margin:auto; font-size:16px; color:#333; line-height:38px;}
+.main_divlink a {font-size:16px; color:#333;}
+.foot{width:1024px; height:40px; background:#000; font-size:14px; text-align:center; color:#fff; line-height:36px;}
+
+

@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>来交作业</title>
+</head>
+<body>
+
+<div onmouseover="mOver(this)" onmouseout="mOut(this)" style="background-color:black;width:300px;height:100px;padding:40px;color:#ffffff;text-align:center">交作业！</div>
+<form>
+学号： <input type="text" value="U201716126" style="width:140px;" ><br />
+密码： <input type="password" value="0000"  style="width:140px;" >
+</form>
+<button onclick="tt()">提交</button>
+<br />
+<img src="images/01.gif" width="300" height="300">
+<script>
+function mOver(obj)
+{
+obj.innerHTML="好的"
+}
+
+function mOut(obj)
+{
+obj.innerHTML="交作业！"
+}
+function tt()
+{
+alert("提交成功");
+
+
+}
+</script>
+
+</body>
+</html>
