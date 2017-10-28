@@ -1,0 +1,47 @@
+body {background-image: url("images/p5.jpg");
+       background-repeat: no-repeat;
+       background-size: cover; 
+     }
+p.class1{
+          font-family: fantasy;
+          font-style: italic;       
+          font-weight: bold;
+          font-size: 60px;
+          background-color: blue; padding: 5px; margin: 0px;
+         }
+p.class2{font-size: 15px;color: white;position: absolute;left: 350px;top: 45px;}
+ul.class3{
+	list-style-type: square;
+	font-family: 微软雅黑;
+	font-size:35px;
+	font-weight: 500;
+}
+p.class4{
+	font-family: 宋体;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 50px;
+	position: absolute;left: 1150px;top: 400px;
+}
+p.class5{
+	font-family: 宋体;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 30px;
+	position: absolute;left: 1260px;top: 480px;
+}
+a:link {color: blue;}
+a:vistied {color: yellow;}
+a:hover {color: yellow;}
+.s1{
+	float: right;
+	margin: none;padding: none;
+	font-family: 宋体;
+	font-size: 20px;
+}
+.s2{
+	font-family: 微软雅黑;
+	font-size: 30px;
+	font-style: italic;
+	position: absolute;top: 600px;left: 50px;
+}

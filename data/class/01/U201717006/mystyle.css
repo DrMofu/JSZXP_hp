@@ -1,0 +1,23 @@
+body{background-image:url('web4-image1.jpg');background-repeat:no-repeat;background-size:cover;}
+h1{font-size:65px;font-style:italic;margin-top:255px;color:rgb(0,0,120);}
+h2{position:absolute;left:17px;top:200px;z-index:-1;font-size:65px;font-style:italic;color:rgb(150,150,200);}
+.about{float:right;width:250px;height:530px;text-align:left;margin-top:280px;margin-right:90px;margin-bottom:100px;background-color:rgb(120,120,130,0.6);}
+.about p{font-size:35px;margin:5px 0px 0px;}
+
+.about ul{list-style-type:none;position:absolute;margin-left:0px;padding-left:0px;}
+.about li a{display:block;color:black;text-decoration:none;background-color:rgb(120,120,130);width:250px;text-align:left;font-size:25px;}
+.about li a:hover,a:active{background-color:rgb(150,150,150);color:white;}
+
+.direct{float:left;text-align:left;margin-top:280px;margin-left:90px;}
+.direct ul{list-style-type:none;margin:0px;padding:0px;overflow:hidden;}
+.direct li{float:left;}
+.direct li a{display:block;width:190px;height:70px;background-color:rgb(120,120,130);font-size:30px;text-align:center;text-decoration:none;color:black;}
+.direct li a:hover,a:active{background-color:rgb(150,150,150);color:white;}
+.image{margin-left:90px;width:760px;height:460px;background-color:rgb(120,120,130,0.6);margin-top:394px;}
+.image img{margin-left:30px;margin-top:30px;}
+.family{float:right;width:250px;height:500px;text-align:left;position:absolute;margin-top:0px;margin-right:90px;background-color:rgb(120,120,130,0.6);}
+.family p{font-size:35px;margin:5px 0px 0px;}
+.family ul{list-style-type:none;position:absolute;margin-left:0px;padding-left:0px;}
+.family li a{display:block;color:black;text-decoration:none;background-color:rgb(120,120,130);width:250px;text-align:left;font-size:25px;}
+.family li a:hover,a:active{background-color:rgb(150,150,150);color:white;}
+

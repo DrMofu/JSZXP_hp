@@ -1,0 +1,77 @@
+body{
+	background: #d9d9d9;
+}
+
+#main{
+	width: 50%;
+	padding: 10px;
+	background: white;
+	margin: 50px auto;
+}
+
+#line{
+    background: #d9d9d9;
+    height: 25px;
+    width: 100%;
+}
+
+#nivigation{
+	height: 150px;
+	padding:20px 50px;
+	margin: 0px;
+}
+
+#nivigation img{
+    float: left;
+    padding: 0px;
+    margin: anto 10px;
+}
+
+#nivigation h1{
+	margin: 0px 180px;
+}
+
+#nivigation #私信{
+	background:  #828d95;
+	padding: 5px 10px;
+	color: white;
+	margin: 80px 5px 50px 25px;
+}
+
+#nivigation #归档{
+	background:  #828d95;
+	padding: 5px 10px;
+	color: white;
+	margin: 80px 5px 50px 5px;
+}
+
+#nivigation #RSS{
+	background:  #828d95;
+	padding: 5px 10px;
+	color: white;
+	margin: 80px 5px 50px 5px;
+}
+
+#main #news #page1 #date{
+	font: 50px 微软雅黑 bold;
+	padding: 10px;
+	margin: 0px 20px 20px 10px;
+	float: left;
+}
+
+#main #news #page1 #title h2{
+	margin: 20px 0px 10px 10px;
+	padding: 5px;
+}
+
+#main #news #page1 #content p{
+	font:16px;
+	padding: 0px;
+	margin: 0px 0px 10px 0px;
+}
+
+#main #news #page1 #infomation p{
+	font-size:8px;
+	padding: 0px;
+	margin:0px 0px 0px 600px;
+}

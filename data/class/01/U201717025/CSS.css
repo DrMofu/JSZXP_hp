@@ -1,0 +1,24 @@
+<style type="text/css">
+a.one:link {color: blue;text-decoration:none;}
+a.one:visited {color: green;text-decoration:none}
+a.one:hover {color:yellow ;font-size: 150% ;text-decoration:none;font-family:monospace;background:red}
+a.one:active{color:purple;text-decoration: none;}
+
+h1.pos_abs
+{
+position:absolute;
+left:250px;
+top:150px;
+font-size:100px;
+}
+p.two
+{
+position:absolute;
+left:100px;
+right: 100px;
+top:150px;
+font-size:100px;
+background-color: white;
+}
+
+</style>

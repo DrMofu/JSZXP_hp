@@ -1,0 +1,24 @@
+1、HTML标题通过<h1>-<h6>等标签定义，字号依次减小
+2、HTML链接由<a>标签定义，如<a href="http://www.baidu.com">百度一下，你就知道</a>
+3、HTML图像通过<img>标签定义，src属性表示图片位置，需要加图片扩展名，如<img src="w3school.jpg";width=""104;height="56">
+4、文件目录，Windows系统默认"\"，Linux系统必须"/"
+5、HTML中标签属性用属性名="一坨代码"；CSS中的属性用属性名：一坨代码；每行后面必须有分号
+6、<meta>标签在<head>标签下无结束标签，用于告诉搜索引擎网页相关内容
+7、<p>标签会省略所有空格，回车；<pre>会保留所有
+8、CSS   h1 {color:red; font-size:14px;}h1 是选择器，color 和 font-size 是属性，red 和 14px 是值。
+9、除了英文单词 red，我们还可以使用十六进制的颜色值 #ff0000：
+p { color: #ff0000; }
+为了节约字节，我们可以使用 CSS 的缩写形式：
+p { color: #f00; }
+我们还可以通过两种方法使用 RGB 值：
+p { color: rgb(255,0,0); }
+p { color: rgb(100%,0%,0%); }
+10、如果值为若干单词，则要给值加引号：
+p {font-family: "sans serif";}
+11、边框
+#box 
+{
+  width: 70px;
+  margin: 10px;
+  padding: 5px;
+}

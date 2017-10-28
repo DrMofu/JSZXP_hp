@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="1.css">
+	<title>我的个人主页——郭竞兴</title>
+	<script type="text/javascript">
+		function displaydate()
+		{
+			x=document.getElementById("d");
+			x.innerHTML="提交成功！";
+		}
+	</script>
+</head>
+<body style="background-color: #B7D3F2" style="align-content:space-around">
+	<div id="container" style="width: 900px"> 
+		<div id="header" style="background-color:#4BDBDC;">
+		<h1 style="margin-bottom:0;">我的个人博客</h1>
+		<h3>聊一聊，看一看</h3>
+		
+	</div>
+	<div id="menu" class="a">
+		<ul style="margin:10px;font-family: 微软雅黑;font-size: 20px">
+			<a href="index.html" hidefocus="true">首页</a></br>
+			<a href="第一个网页.html">日志</a></br>
+			<a href="h.html" target="right">facebook</a></br>
+		</ul>
+			<form action="2.html" method="post/get">
+				<input type="text" name="email" size="40" maxlength="40">
+				<input type="password">
+				<input type="checkbox" >以密信的方式发送
+				<input type="submit" value="Send">
+				<input type="reset">
+				<input type="hidden">
+				<p style="margin-left: 0px">意见箱：</p>
+				<select>
+				<option>qq邮箱</option>
+				<option selected="selected">网易邮箱</option>
+				<option>Twitter</option>
+				<option>Youtube</option>
+				<option>Facebook</option>
+				</select>
+				<textarea name="comment" rows="20" cols="20"></textarea>
+				<button type="button" onclick="displaydate()">提交</button>
+				<p id="d" style="color:red;size: 30px;"></p>
+			</form>
+	</div>
+	<hr>
+		<iframe src="h.html" name="right" frameborder="3" width="700" height="700" noresize/>
+	<div id="content" class="mode">
+		<div>
+			<p style="color: red;">姓名：郭竞兴</p>
+			<p style="color: red;">时间：2017年10月18日</p>
+		</div>
+		<p>从种种迹象和预期来看，11月份将会迎来的分叉是推动此轮价格上涨的最重要原因。那么比特币分叉是怎么一回事，又有什么影响，会带来风险还是福利，且听记者一一道来。</p>
+　　<p>比特币各相关方曾提出了多种扩容方案。目前达成共识的方案是“纽约共识”，即先在比特币区块链主链部署隔离见证，随后在11月再进行1M到2M的区块扩容，届时比特币交易拥堵的问题有望得到缓解。</p>
+	<p>首先吃瓜群众们需要明确的是，11月份的这次分叉并非突如其来，而是有计划有预期的，与分叉相关的争论自比特币诞生后不久就已产生，可谓由来已久，是比特币技术升级的需要，也是比特币各相关方利益纷争的结果。虽然此次分叉是大概率事件，但最终结果尚未确定。</p>
+　　<p>比特币最初的设定是每个区块大小为1M，平均每十分钟产生一个区块，比特币网络理论上每秒最多可以处理7 笔交易。随着比特币持有者和区块链上交易的不断增长，原本1M的区块大小已不足以支撑日渐庞大的交易量，网络拥堵、交易延迟等问题日益严重。为了解决这些问题，比特币社区探讨了种种方案，主要包括将“隔离见证+闪电网络”，以及修改比特币区块链的代码，以期突破1M区块上限，即比特币扩容。</p>
+　　<p>比特币各相关方曾提出了多种扩容方案。目前达成共识的方案是“纽约共识”，即先在比特币区块链主链部署隔离见证，随后在11月再进行1M到2M的区块扩容，届时比特币交易拥堵的问题有望得到缓解。</p>
+　　<p>但该方案并未得到Bitcoin core即比特币核心开发社区的认可。纽约共识中并没有比特币核心开发者参与。该核心团队扬言，若扩容被执行，团队就要在11月份之前再进行分叉，坚持1M的区块大小。此次对分叉的预期正是基于这一背景。</p>
+　　<p>分叉对比特币意味着什么呢？为何斗争如此复杂。主要原因是对比特币理念的理解不同和背后的利益纠纷。如果只部署隔离见证，那么矿工通过验证交易获取的报酬就会降低。而Bitcoin core坚持不扩容，并用隔离验证+闪电网络的方式解决比特币区块链拥堵的问题则是因为，一方面小区块更能保证区块链的安全，另一方面防止矿工权利过大导致比特币的中心化。</p>
+　　<p>Bitcoin core认为，中本聪最初创造比特币的目的就是为人们提供一个去中心化的安全的交易网络，安全性、不可逆转性和独立性是它的本质。一旦发生硬分叉，区块大小从1M 扩大到2M，随着时间推移，当2M 也无法满足需求的时候，区块体积继续扩大，直到最后普通的私人计算机难以运行整个区块链，所有的算力都集中到矿工身上。这样一来， 矿工就能够依靠手中的算力，削弱区块链原本依靠全节点共同维护的最小化用户间信任的安全模式，导致区块链网络的中心化。</p></div></div>
+</body>
+</html>

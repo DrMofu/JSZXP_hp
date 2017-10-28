@@ -1,0 +1,73 @@
+.dangqi{
+	margin: 0 auto;
+}
+
+
+.topTitle{
+	text-align: center;
+}
+
+.line1{
+	width: 600px;
+}
+.middle{
+	margin: 0 auto;
+	width: 900px;
+	background-image: url("xiying.png");
+}
+.left{
+	position: fixed;
+	left: 0;
+	top: 300px;
+	width: 200px;
+	border: 1px solid red;
+	background-image: url("xidada.jpg");
+}
+.main1{
+	font-size: 20px;
+}
+.main2{
+	font-size: 20px;
+}
+.main3{
+	font-size: 20px;
+}
+.main4{
+	font-size: 20px;
+}
+p>img{
+	width: 20px;
+	height: 20px;
+}
+.right{
+	position: absolute;
+	right:0px;
+	top:0px;
+	border:5px solid red;
+}
+
+.img1{
+	width:100px;
+	height:100px;
+}
+.img2{
+	width:100px;
+	height:100px;
+}
+.img3{
+	width:100px;
+	height:100px;
+}
+#submain{
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+#maintitle{
+	position:absolute;
+	top:100px;
+	left:500px;
+	width:700px;
+	font-size:80px;
+	color:red;
+}

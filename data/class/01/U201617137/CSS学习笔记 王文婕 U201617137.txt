@@ -1,0 +1,91 @@
+表格边框
+如需在 CSS 中设置表格边框，请使用 border 属性。
+table, th, td
+  {
+  border: 1px solid blue;
+  }
+
+折叠边框
+border-collapse 属性设置是否将表格边框折叠为单一边框：
+table
+  {
+  border-collapse:collapse;
+  }
+
+table,th, td
+  {
+  border: 1px solid black;
+  }
+
+表格宽度和高度
+通过 width 和 height 属性定义表格的宽度和高度。
+table
+  {
+  width:100%;
+  }
+
+th
+  {
+  height:50px;
+  }
+
+表格文本对齐
+text-align 和 vertical-align 属性设置表格中文本的对齐方式。
+text-align 属性设置水平对齐方式
+td
+  {
+  text-align:right;
+  }
+
+vertical-align 属性设置垂直对齐方式
+td
+  {
+  height:50px;
+  vertical-align:bottom;
+  }
+
+表格内边距
+td
+  {
+  padding:15px;
+  }
+
+表格颜色
+table, td, th
+  {
+  border:1px solid green;
+  }
+
+th
+  {
+  background-color:green;
+  color:white;
+  }
+
+CSS 相对定位
+#box_relative {
+  position: relative;
+  left: 30px;
+  top: 20px;
+}
+
+CSS 绝对定位
+#box_relative {
+  position: absolute;
+  left: 30px;
+  top: 20px;
+}
+
+在 CSS 中，我们通过 float 属性实现元素的浮动。float和clear属性。
+
+导航栏 = 链接列表
+导航栏需要标准的 HTML 作为基础。
+在我们的例子中，将用标准的 HTML 列表来构建导航栏。
+导航栏基本上是一个链接列表，因此使用 <ul> 和 <li> 元素是非常合适的：
+实例
+<ul>
+<li><a href="default.asp">Home</a></li>
+<li><a href="news.asp">News</a></li>
+<li><a href="contact.asp">Contact</a></li>
+<li><a href="about.asp">About</a></li>
+</ul>

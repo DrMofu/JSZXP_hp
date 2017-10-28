@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="keywords" content="个人博客；网站小白自作用页">
+	<meta name="author" content="陈立伟">
+	<meta name="generator" content="Sublime Text">
+	<meta name="Copyright" content="还有这玩意啊 CopyRight©2017">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=0">
+	<title>陈立伟的个人博客</title>
+	<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.0.js"></script>
+	<link rel="stylesheet" type="text/css" href="CLW.css" />
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$(".flip").click(function(){
+				$(".滑动").slideToggle('slow');
+		    });
+		});
+		$(document).ready(function(){
+			$("#最新文章缩略").click(function(){
+				$('#div2').load('日志文章.html',function
+					(responseTxt,statusTxt,xhr){
+						if(statusTxt=="success")
+							alert("最新日志内容获取成功！");
+						if(statusTxt=="error")
+							alert("没有最新内容了！");
+				}); 
+			});
+		});
+		alert("欢迎来到我的博客！");
+		<!-- 
+			function openwin(){
+				window.open ("日志文章.html", "关于我CopyRight©2017", "height=500, width=500, right=300, bottom=300, toolbar =no, menubar=no, scrollbars=no, resizable=no, location=no, status=no")
+			};
+		--> 
+
+		
+	</script> 
+
+</head>
+<body>
+	<div style="float:left;left:20px;width: 200px;z-index: 10;" class="summary">
+		<div style="left:30px;top:30px;width: 200px;">
+		<center><img class="head" src="http://upload.ouliu.net/i/20171014163019sn4ao.jpeg" ></center>
+		<center><a href="#" class="name" style="word-spacing: 5px" onclick="showPopup(300,200);" >陈立伟的博客</a></center>
+		<p style="font-family:微软雅黑;font-size:25px;color:red;font-weight:bold;" id="hid">猜猜我是啥鬼玩意</p>
+		<div class="滑动" style="margin-top: 20px;display: none;position: relative">
+			<p style="font-family: 微软雅黑;font-size: 18px;color: #16a951;font-weight: bold;text-align: center;margin-top: 20px;">华科软工1703班宅男<br>个人情况不详<br>QQ：770560618 <br>吃鸡吗？医疗兵 四级包<br>DOTA吗？我要证明影魔不适合这个版本了<br>我可不是单车武士</p>
+			<center><img src="http://upload.ouliu.net/i/201710162023286q3f2.jpeg" style="width:70px;height:70px;border-radius:100%;"></center>
+		</div>
+		<p class="flip" style="cursor:pointer;">点此展开/收起简介</p>
+		<center><a href="index.html" class="list">主页</a></center>
+		<center><a href="日志文章.html"  target="_blank" class="list">随拾</a></center>
+		<center><a href="http://huaban.com/vasyk7bnfl/" target="_blank" class="list">采集画册</a></center>
+		<center><a href="#" onclick="openwin()" class="list">关于我</a></center>
+	    </div>
+	</div>
+		<p class="wtf">点击播放洗洗脑</p>
+	
+		<audio controls="controls" height="100" width="100" id="audio" volume="0.2">
+        	<source src="http://music.163.com/song/media/outer/url?id=29775322.mp3" type="audio/mp3" />
+            <source src="http://music.163.com/song/media/outer/url?id=29775322.ogg" type="audio/ogg" />
+        <embed height="100" width="100" src="http://music.163.com/song/media/outer/url?id=29775322.mp3" />
+        </audio>
+		<button id="最新文章缩略" style="position:absolute;left:260px;top:50px;color:red;font-size:15px;">点击获取最新文章缩略</button>
+	<div id="div2" style="position: absolute;left: 220px;top: 100px;overflow:hidden;border:3px solid gray;z-index:999;display:block;background-color:#88ada6;">
+		
+	</div>
+	<div id="lunbo" style="position: fixed ;right: 5px;bottom:-15px;z-index: 1； ">
+    <ul>
+        <li><img src="http://upload.ouliu.net/i/20171020082737gu189.jpeg" class="picture"></li>
+        <li><img src="http://upload.ouliu.net/i/201710200835097sxf8.jpeg" class="picture"></li>
+        <li><img src="http://upload.ouliu.net/i/201710200848121eydw.jpeg" class="picture"></li>
+        <li><img src="http://upload.ouliu.net/i/201710201250344nauz.jpeg" class="picture"></li>
+    </ul>
+    </div>
+    <div id="div3">
+    	<div id="19th" style="background-color:#fffbf0;display:block;width:880px;height:50px;">
+    	<center><p style="color:#ed5736;font-size:35px;word-spacing:20px;font-weight:bold;margin-top:0px;">喜迎十九大，一定要又红又专</p></center>
+    	</div>
+    	<iframe src="http://cpc.people.com.cn/19th/index.html?_zbs_baidu_dk" width="880px" height="1000px" scrolling="Yes" frameborder="5px"></iframe>
+
+    </div>
+	<script type="text/javascript">
+    var li=document.getElementById('lunbo').getElementsByTagName("li");
+    var num=0;
+    var len=li.length;
+
+    setInterval(function(){
+        li[num].style.display="none";
+        num=++num==len?0:num;
+        li[num].style.display="inline-block";
+
+    },2500);
+	</script>
+
+</body>
+</html>

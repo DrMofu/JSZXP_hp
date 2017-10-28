@@ -1,0 +1,77 @@
+/*.class3{*/
+     /*font-size: 40px;*/
+     /*text-align: center;*/
+     /*font-style:italic;*/
+     /*color:cadetblue;*/
+
+ /*}*/
+/*.class4{*/
+    /*font-size: 25px;*/
+
+/*}*/
+/*.class4:hover{*/
+    /*color: #ff3525;*/
+    /*font-size: 25px;*/
+/*}*/
+ul
+{
+    list-style-type:none;
+    margin:0;
+    padding-left: 360px;
+    overflow:hidden;
+}
+li
+{
+    float:left;
+}
+.class4:link,.class4:visited
+{
+    display:block;
+    width:120px;
+    font-weight:bold;
+    color:#FFFFFF;
+    background-color:#bebebe;
+    text-align:center;
+    padding:4px;
+    text-decoration:none;
+    text-transform:uppercase;
+}
+.class4:hover,.class4:active
+{
+    background-color:#cc0000;
+}
+
+
+
+.class5{
+    font-size: 30px;
+    text-align: center;
+}
+.class6{
+    font-size: 40px;
+    text-align: center;
+    border-style:dashed;
+    border-radius: 50px;
+    border-width: 5px;
+    border-color: aquamarine;
+    background-color: #ffb16d;
+
+}
+.class7{
+    font-size: 90px;
+    text-align: center;
+}
+html:hover .class7{
+    animation-delay: 500ms;
+    animation-duration: 1s;
+    animation-name: qwer;
+    animation-fill-mode: forwards;
+}
+@keyframes qwer {
+    to{
+        font-size: 50px;
+        font-family: 微软雅黑;
+        color:deepskyblue;
+        font-style: normal;
+    }
+}

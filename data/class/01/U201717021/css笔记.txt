@@ -1,0 +1,24 @@
+CSS 规则由两个主要的部分构成：选择器，以及一条或多条声明。
+selector {declaration1; declaration2; ... declarationN }
+比方说，你希望列表中的 strong 元素变为斜体字，而不是通常的粗体字，可以这样定义一个派生选择器：
+li strong {
+    font-style: italic;
+    font-weight: normal;
+  }
+请注意标记为 <strong> 的蓝色代码的上下文关系：
+<p><strong>我是粗体字，不是斜体字，因为我不在列表当中，所以这个规则对我不起作用</strong></p>
+
+<ol>
+<li><strong>我是斜体字。这是因为 strong 元素位于 li 元素内。</strong></li>
+<li>我是正常的字体。</li>
+</ol>
+在上面的例子中，只有 li 元素中的 strong 元素的样式为斜体字，无需为 strong 元素定义特别的 class 或 id，代码更加简洁。
+背景重复
+如果需要在页面上对背景图像进行平铺，可以使用 background-repeat 属性。
+属性值 repeat 导致图像在水平垂直方向上都平铺，就像以往背景图像的通常做法一样。repeat-x 和 repeat-y 分别导致图像只在水平或垂直方向上重复，no-repeat 则不允许图像在任何方向上平铺。
+默认地，背景图像将从一个元素的左上角开始。请看下面的例子：
+body
+  { 
+  background-image: url(/i/eg_bg_03.gif);
+  background-repeat: repeat-y;
+  }

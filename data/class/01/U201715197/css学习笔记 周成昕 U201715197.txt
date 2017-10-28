@@ -1,0 +1,198 @@
+﻿           		 
+           		 html 如何添加背景音乐
+新建一个html文档，在title标签下方添加音乐代码
+2
+ <embed src="/pour-time/img/nuanuande.mp3" hidden="true" autostart="true" loop="true">
+记得将教程里的MP3音乐替换成您的路径
+3
+hidden="true" 意思是隐藏播放器按钮hidden="false"开启
+4
+autostart="true"  意思是打开网页加载完后自动播放
+5
+loop="true"> 循环播放 如仅播放一次代码为：loop="false">
+          		
+
+
+          		在html中插入整个页面的背景图
+    body{
+            background-image:url("5.jpg");
+            background-position:center;           
+            background-repeat:repeat-y；
+        }
+             		
+
+             		去除下划线
+        a{ text-decoration:none;color:#0000FF;}
+        
+
+        		用HTML如何实现文字滚动
+        <marquee style="WIDTH: 388px; HEIGHT: 200px" scrollamount="2" direction="up" >
+<div align="left" >
+</div >
+<center ><font face="黑体" color="#008000" size="4" ></font ></center >
+<div align="left" >
+</div >
+<center >
+<p ><font color="#ff6600" size="4" >滚动文字</font ></p >
+<p ><font color="#ff4500" size="4" >滚动文字</font ></p >
+<p ><font color="#ff3300" size="4" >滚动文字</font >
+</p >
+</marquee >
+marquee 参数：
+BGColor：滚动文本框的背景颜色。
+Direction：滚动方向设置，可选择Left、Right、up和down。
+scrolldelay：每轮滚动之间的延迟时间，越大越慢。
+scrollamount：一次滚动总的时间量，数字越小滚动越慢。
+Behaviour：滚动的方式设置，三种取值：Scroll（循环滚动） lide（单次滚动）、Alternate（来回滚动）。
+Align：文字的对齐方式设置。可选择Middle(居中)、Bottom(居下)还是Top(居上)。
+Width：滚动文本框的宽度，输入一个数值后从后面的单选框选择in Pixels(按像素)或是in Percent(按百分比)。
+Height：滚动文本框的高度，输入一个数值后从后面的单选框选择in Pixels(按像素)或是in Percent(按百分比)。
+loop：滚动次数。默认为infinite
+hspace、vspace：前后、上下的空行。
+
+而用HTML的<marquee>活动字幕标记所需的代码最少，确实能够以较少的下载时间换来较好的效果。该标记语法格式如下：
+<marquee
+aligh=left|center|right|top|bottom
+bgcolor=#n
+direction=left|right|up|down
+behavior=type
+height＝n
+hspace＝n
+scrollamount=n
+Scrolldelay=n
+width=n
+VSpace=n
+loop＝n>
+　　可以看出由于活动字幕的显示方式多种多样，可选的参数也很多。下面解释一下各参数的含义：
+　　align：是设定活动字幕的位置，不过除了居左、居中、居右三种位置外，又增加靠上（align=top）和靠下（align=bottom）两种位置。
+　　Bgcolor：用于设定活动字幕的背景颜色，一般是十六进制数。
+　　Direction：用于设定活动字幕的滚动方向是向左、向右、向上、向下。
+　　Behavior：用于设定滚动的方式，主要由三种方式：behavior="scroll"表示由一端滚动到另一端；behavior="slide":表示由一端快速滑动到另一端，且不再重复； behavior="alternate"表示在两端之间来回滚动。
+　　Height：用于设定滚动字幕的高度。
+　　Width：则设定滚动字幕的宽度。
+　　Hspace和vspace：分别用于设定滚动字幕的左右边框和上下边框的宽度。
+　　Scrollamount：用于设定活动字幕的滚动距离。
+　　scrolldelay：用于设定滚动两次之间的延迟时间。
+　　Loop：用于设定滚动的次数，当loop=-1表示一直滚动下去，直到页面更新。
+　　<marquee>标记的默认情况是向左滚动无限次，字幕高度是文本高度，滚动范围：水平滚动的宽度是当前位置的宽度；垂直滚动的高度是当前位置的高度。
+
+
+
+ 
+
+<body>
+<p>
+您也可以使用图像来作链接：
+<a href="/example/html/lastpage.html">
+<img border="0" src="/i/eg_buttonnext.gif" />
+</a>
+</p>
+
+</body>
+</html>
+									<!--这是一段注释。注释不会在浏览器中显示。-->
+
+<p>浏览器通常会在 q 元素周围包围引号。</p>
+
+<p>WWF 的目标是 <q>构建人与自然和谐相处的世界。</q></p>
+<a href="http://www.w3school.com.cn/" target="_blank">Visit W3School!</a>
+
+<p>如果把链接的 target 属性设置为 "_blank"，该链接会在新窗口中打开。</p>
+
+
+<a href="/example/html/lastpage.html">
+<img border="0" src="/i/eg_buttonnext.gif" />
+
+ 
+<body>
+
+<p>请点击图像上的星球，把它们放大。</p>
+
+<img
+src="/i/eg_planets.jpg"
+border="0" usemap="#planetmap"
+alt="Planets" />
+
+<map name="planetmap" id="planetmap">
+
+<area
+shape="circle"
+coords="180,139,14"
+href ="/example/html/venus.html"
+target ="_blank"
+alt="Venus" />
+
+<area
+shape="circle"
+coords="129,161,10"
+href ="/example/html/mercur.html"
+target ="_blank"
+alt="Mercury" />
+
+<area
+shape="rect"
+coords="0,0,110,260"
+href ="/example/html/sun.html"
+target ="_blank"
+alt="Sun" />
+
+</map>
+
+<p><b>注释：</b>img 元素中的 "usemap" 属性引用 map 元素中的 "id" 或 "name" 属性（根据浏览器），所以我们同时向 map 元素添加了 "id" 和 "name" 属性。</p>
+
+</body>
+</html>
+
+
+ 
+
+<body>
+
+<p>
+<img src ="/i/eg_cute.gif" align ="left"> 
+带有图像的一个段落。图像的 align 属性设置为 "left"。图像将浮动到文本的左侧。
+</p>
+
+<p>
+<img src ="/i/eg_cute.gif" align ="right"> 
+带有图像的一个段落。图像的 align 属性设置为 "right"。图像将浮动到文本的右侧。
+</p>
+
+</body>
+</html>
+<html>
+<body>
+
+<p>请点击图像上的星球，把它们放大。</p>
+
+<img
+src="/i/eg_planets.jpg"
+border="0" usemap="#planetmap"
+alt="Planets" />
+
+<map name="planetmap" id="planetmap">
+
+<area
+shape="circle"
+coords="180,139,14"
+href ="/example/html/venus.html"
+target ="_blank"
+alt="Venus" />
+
+<area
+shape="circle"
+coords="129,161,10"
+href ="/example/html/mercur.html"
+target ="_blank"
+alt="Mercury" />
+
+<area
+shape="rect"
+coords="0,0,110,260"
+href ="/example/html/sun.html"
+target ="_blank"
+alt="Sun" />
+
+</map>
+
+<p><b>注释：</b>img 元素中的 "usemap" 属性引用 map 元素中的 "id" 或 "name" 属性（根据浏览器），所以我们同时向 map 元素添加了 "id" 和 "name" 属性。</p>

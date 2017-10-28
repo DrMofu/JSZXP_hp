@@ -1,0 +1,64 @@
+---------------------------------------------------------------------------------------------------
+背景
+
+body
+{
+background-image:url('.png');
+background-repeat:repeat-x;		//平铺
+} 
+{
+background-image:url('.png');
+background-repeat:no-repeat;
+background-position:right top;	//背景图片位置
+} 
+{
+background:#ffffff url('.png') no-repeat right top;		//属性简写
+}
+{ 
+background-image:url('');
+background-repeat:no-repeat;
+background-attachment:fixed;		//固定背景
+} 
+
+
+---------------------------------------------------------------------------------------------------
+导航栏
+
+ul {
+    border: 1px solid #555;		//边框
+}
+ {
+    list-style-type: none;	//导航栏 删除圆点、边距、填充
+    margin: 0;
+    padding: 0;
+}
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: #f1f1f1;
+    height: 100%; 		//全屏高度
+    position: fixed; 
+    overflow: auto;		 //如果导航栏选项多，允许滚动
+}
+li {
+    text-align: center;
+    border-bottom: 1px solid #555;
+}
+ 
+li:last-child {
+    border-bottom: none;
+}
+li a:hover:not(.active) {
+    background-color: #555;		//鼠标停留时
+    color: white;
+}
+
+
+a:link {color:#000000;}      	//未访问链接
+a:visited {color:#00FF00;}  	//已访问链接
+a:hover {color:#FF00FF;}  	//鼠标移动到链接上
+a:active {color:#0000FF;}  	//鼠标点击时 
+
+---------------------------------------------------------------------------------------------------

@@ -1,0 +1,172 @@
+CSS选择器
+1.根据 CSS，子元素从父元素继承属性。
+body {
+     font-family: Verdana, sans-serif;
+     }
+通过 CSS 继承，子元素将继承最高级元素（在本例中是 body）所拥有的属性（这些子元素诸如 p, td, ul, ol, ul, li, dl, dt,和 dd）。
+不需要另外的规则，所有 body 的子元素都应该显示 Verdana 字体，子元素的子元素也一样。
+
+
+2.如果你不希望 "Verdana, sans-serif" 字体被所有的子元素继承，又该怎么做呢？比方说，你希望段落的字体是 Times。没问题。创建一个针对 p 的特殊规则，这样它就会摆脱父元素的规则：
+body  {
+     font-family: Verdana, sans-serif;
+     }
+
+td, ul, ol, ul, li, dl, dt, dd  {
+     font-family: Verdana, sans-serif;
+     }
+
+p  {
+     font-family: Times, "Times New Roman", serif;
+     }
+
+
+3.派生选择器允许你根据文档的上下文关系来确定某个标签的样式。
+比方说，你希望列表中的 strong 元素变为斜体字，而不是通常的粗体字，可以这样定义一个派生选择器：
+li strong {
+    font-style: italic;
+    font-weight: normal;
+  }
+
+
+4.css导航栏
+<style>
+ul
+{
+list-style-type:none;      //去除圆点
+margin:0;                  //把外边距和内边距设置为 0 可以去除浏览器的默认设定。
+padding:0;
+}
+a:link,a:visited
+{
+display:block;       //把链接显示为块元素可使整个链接区域可点击（不仅仅是文本），同时也允许我们规定宽度
+font-weight:bold;    //60px - 块元素默认占用全部可用宽度。我们需要规定 60 像素的宽度。
+color:#FFFFFF;
+background-color:#bebebe;
+width:120px;
+text-align:center;
+padding:4px;
+text-decoration:none;
+text-transform:uppercase;
+}
+a:hover,a:active
+{
+background-color:#cc0000;
+}
+</style>
+</head>
+
+<body>
+<ul>
+<li><a href="#home">Home</a></li>
+<li><a href="#news">News</a></li>
+<li><a href="#contact">Contact</a></li>
+<li><a href="#about">About</a></li>
+</ul>
+</body>
+
+
+5.CSS链接
+链接的四种状态：
+a:link - 普通的、未被访问的链接
+a:visited - 用户已访问的链接
+a:hover - 鼠标指针位于链接的上方
+a:active - 链接被点击的时刻
+
+a:hover 必须位于 a:link 和 a:visited 之后
+a:active 必须位于 a:hover 之后
+text-decoration 属性大多用于去掉链接中的下划线：
+a:link {text-decoration:none;}
+
+
+6.CSS列表
+要修改用于列表项的标志类型，可以使用属性 list-style-type：    ul {list-style-type : square}
+
+有时，常规的标志是不够的。你可能想对各标志使用一个图像，这可以利用 list-style-image 属性做到：
+ul li {list-style-image : url(xxx.gif)}
+
+为简单起见，可以将以上 3 个列表样式属性合并为一个方便的属性：list-style，就像这样：
+li {list-style : url(example.gif) square inside}
+
+7.框模型
+border；边框
+margin；外边框   margin-top/right/left/bottom外上/右/下/左边框
+padding；内边框  同上
+height；高度
+width；宽度
+
+您还可以按照上、右、下、左的顺序分别设置各边的边距，各边均可以使用不同的单位或百分比值：
+h1 {padding/margin: 10px 0.25em 2ex 20%;}
+
+
+#box {
+  width: 70px;
+  margin: 10px;
+  padding: 5px;
+}
+
+
+8.CSS定位
+static
+元素框正常生成。块级元素生成一个矩形框，作为文档流的一部分，行内元素则会创建一个或多个行框，置于其父元素中。
+relative
+元素框偏移某个距离。元素仍保持其未定位前的形状，它原本所占的空间仍保留。
+absolute
+元素框从文档流完全删除，并相对于其包含块定位。包含块可能是文档中的另一个元素或者是初始包含块。元素原先在正常文档流中所占的空间会关闭，就好像元素原来不存在一样。元素定位后生成一个块级框，而不论原来它在正常流中生成何种类型的框。
+fixed
+元素框的表现类似于将 position 设置为 absolute，不过其包含块是视窗本身。
+
+
+(1)相对定位
+h2.pos_left
+{
+position:relative;
+left:-20px   //样式 "left:-20px" 从元素的原始左侧位置减去 20 像素。
+}
+h2.pos_right
+{
+position:relative;
+left:20px     //样式 "left:20px" 向元素的原始左侧位置增加 20 像素。
+}
+
+
+（2）绝对定位
+h2.pos_abs
+{
+position:absolute;
+left:100px;
+top:150px
+}        //通过绝对定位，元素可以放置到页面上的任何位置。下面的标题距离页面左侧 100px，距离页面顶部 150px。
+
+
+（3）浮动
+在 CSS 中，我们通过 float 属性实现元素的浮动。
+要想阻止行框围绕浮动框，需要对该框应用 clear 属性。clear 属性的值可以是 left、right、both 或 none，它表示框的哪些边不应该挨着浮动框。
+演示：img 
+{
+float:right    //使图像悬浮在右边
+border:1px dotted black;
+margin:0px 0px 15px 20px;     //上和右外边距是 0px，下外边距是 15px，而图像左侧的外边距是 20px。
+border:1px solid black;
+}
+
+span
+{
+float:left;
+width:0.7em;
+font-size:400%;
+font-family:algerian,courier;
+line-height:80%;
+}           //在上面的段落中，文本的第一个字母包含在一个 span 元素中。这个 span 元素的宽度是当前字体尺寸的 0.7 倍。span 元素的字体尺寸是 400%，行高是 80%。span 中的字母字体是 "Algerian"
+
+img
+  {
+  float:left;
+  clear:both;      //清除元素的侧面
+
+  }
+
+
+
+
+

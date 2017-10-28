@@ -1,0 +1,45 @@
+h1{
+	font-size: 60px;
+	font-family: 微软雅黑;
+	font-style: bold;
+	margin-top: 60px;
+	margin-left: 70px;
+}
+h3{
+	font-size: 30px;
+	font-family:微软雅黑;
+	margin-left: 70px;
+}
+.mode{
+	font-size: 20px;
+	font-family:微软雅黑;
+	color:rgb(0,1,2);
+	background-color:#90D0E9;
+	width: 600px;
+    border: 10px groove green;
+    padding: 25px;
+    margin: 5px;
+    float:left;
+}
+p{
+	align-content:flex-start;
+	text-indent:50px;
+}
+.a{
+	background-color: #00B8E5;
+	height:700px;
+	width:180px;
+	float:left;
+	clear: both;
+}
+.l{
+	size: 3px;
+	color:red; 
+}
+.list{
+	border-style: dashed;
+	border-color: #272822; 
+	width: 450px;
+	height: 130px; 
+	margin-left:40px
+}
